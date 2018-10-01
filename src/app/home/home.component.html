@@ -1,0 +1,15 @@
+<div class="home-container" [@goals]="goals.length">
+  <div class="left-container">
+      <h3>Add Goals</h3>
+      <form>
+        <input type="text" name="item" placeholder="Add goal" [(ngModel)]="goalText">
+        <input type="submit" [value]="btnString" (click)="addItem()">
+      </form>
+  </div>
+  <div class="right-container">
+    <h3>Number of items {{itemCount}}</h3>
+      <p *ngFor="let goal of goals; let i = index" (click)="removeItem(i)">
+          {{goal}}
+        </p>
+    </div>
+</div>

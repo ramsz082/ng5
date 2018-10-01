@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: #FF8A65;
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+}
+.nav li {
+    display: inline;
+    padding: 10px;
+}
+.nav li a, .nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+//home page styles
+.home-container {
+    background: #F57C00;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.about-container {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+}
+.home-container h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    background: #BF360C;
+}
+.home-container > div {
+    width: 50%;
+    float: left;
+}
+
+.right-container p {
+    background: #D84315;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    display: block;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=submit] {
+    background: #8BC34A;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

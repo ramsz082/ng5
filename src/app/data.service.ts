@@ -8,6 +8,7 @@ import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 export class DataService {
 
   private goals = new BehaviorSubject<any>(['The initial goal', 'Another silly goal']);
+  
   goal = this.goals.asObservable();
 
   constructor() { }
